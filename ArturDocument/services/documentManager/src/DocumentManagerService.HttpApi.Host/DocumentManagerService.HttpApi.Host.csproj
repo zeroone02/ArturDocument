@@ -7,7 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\common\DocumentManagerService.DDD\DocumentManagerService.DDD.csproj" />
+    <ProjectReference Include="..\DocumentManagerService.Application.Contracts\DocumentManagerService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\DocumentManagerService.Application\DocumentManagerService.Application.csproj" />
+    <ProjectReference Include="..\DocumentManagerService.Dapper\DocumentManagerService.Dapper.csproj" />
+    <ProjectReference Include="..\DocumentManagerService.Domain\DocumentManagerService.Domain.csproj" />
   </ItemGroup>
 
 </Project>

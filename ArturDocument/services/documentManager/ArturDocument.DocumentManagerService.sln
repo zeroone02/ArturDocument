@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagerService.Http
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{95277BA3-EBAB-4DC6-8886-C25769460182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagerService.HttpApi.Host", "src\DocumentManagerService.HttpApi.Host\DocumentManagerService.HttpApi.Host.csproj", "{F2B0EAF5-AA65-413D-8A5E-B31514D67C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagerService.HttpApi.Host", "src\DocumentManagerService.HttpApi.Host\DocumentManagerService.HttpApi.Host.csproj", "{F2B0EAF5-AA65-413D-8A5E-B31514D67C0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentManagerService.Application.Contracts", "src\DocumentManagerService.Application.Contracts\DocumentManagerService.Application.Contracts.csproj", "{D604BC66-9BC7-4A65-8A7E-6352CDC988E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagerService.Application.Contracts", "src\DocumentManagerService.Application.Contracts\DocumentManagerService.Application.Contracts.csproj", "{D604BC66-9BC7-4A65-8A7E-6352CDC988E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagerService.DDD", "common\DocumentManagerService.DDD\DocumentManagerService.DDD.csproj", "{A889655F-035B-4073-851B-0AC2B9D85FB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{D604BC66-9BC7-4A65-8A7E-6352CDC988E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D604BC66-9BC7-4A65-8A7E-6352CDC988E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D604BC66-9BC7-4A65-8A7E-6352CDC988E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A889655F-035B-4073-851B-0AC2B9D85FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A889655F-035B-4073-851B-0AC2B9D85FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A889655F-035B-4073-851B-0AC2B9D85FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A889655F-035B-4073-851B-0AC2B9D85FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{9696CE51-505F-4036-AD89-9F16FE9C703B} = {0151261B-B252-4878-974F-7AC3809AA2AF}
 		{F2B0EAF5-AA65-413D-8A5E-B31514D67C0B} = {0151261B-B252-4878-974F-7AC3809AA2AF}
 		{D604BC66-9BC7-4A65-8A7E-6352CDC988E3} = {0151261B-B252-4878-974F-7AC3809AA2AF}
+		{A889655F-035B-4073-851B-0AC2B9D85FB8} = {95277BA3-EBAB-4DC6-8886-C25769460182}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE7EF5D6-72C7-4511-A202-0E140A07AD8E}
